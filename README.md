@@ -4,13 +4,17 @@ This is a browser-based app that loads and places RSS feeds in a simple manner f
 
 ## How to run (steps)
 
-For running this app, a browser is needed.
+For running this app, a browser is needed:
 
-Upon loading the app, feeds are showed as well as Jasmine (version 2.1.2) tests in the bottom of the page.
+1.  Run your favorite browser (Chrome, Firefox etc.).
 
-To read a certain feed, just click its name.
+2.  Open the "index.html" file in the browser.
 
-To jump between given categories/topics, use the pop-up menu.
+3.  Upon loading the app, feeds are showed as well as Jasmine (version 2.1.2) tests in the bottom of the page.
+
+4.  To read a certain feed, just click its name.
+
+5.  To jump between given categories/topics, use the pop-up menu.
 
 ## Dependencies
 
