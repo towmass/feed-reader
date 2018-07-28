@@ -4,6 +4,10 @@
  * all of the tests that will be run against your application.
  */
 
+/*
+SPECIAL CREDIT goes to user MatthewCranford who helped me a lot with understanding the code! Thank you!
+*/
+
 /* We're placing all of our tests within the $() function,
  * since some of these tests may require DOM elements. We want
  * to ensure they don't run until the DOM is ready.
