@@ -103,15 +103,15 @@ $(
 
     /* New test suite named "New Feed Selection" */
     describe("New Feed Selection", function() {
-      let firstFeed;
-      let secondFeed;
+      let originFeed;
+      let newFeed;
       beforeEach(function(done) {
         loadFeed(0, function() {
           originFeed = document.querySelector(".feed").innerHTML;
-        });
-        loadFeed(1, function() {
-          newFeed = document.querySelector(".feed").innerHTML;
-          done();
+          loadFeed(1, function() {
+            newFeed = document.querySelector(".feed").innerHTML;
+            done();
+          });
         });
       });
 
@@ -120,7 +120,7 @@ $(
          * Remember, loadFeed() is asynchronous.
          */
       it("content records new feeds", function(done) {
-        expect(originFeed !== newFeed).toBe(true);
+        expect(originFeed).not.toEqual(newFeed);
         done();
       });
     });
