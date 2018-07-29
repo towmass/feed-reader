@@ -6,7 +6,7 @@ This is a browser-based app that loads and places RSS feeds in a simple manner f
 
 To run this app locally:
 
-1.  Clone/download this repository and run your favorite browser (Chrome, Firefox etc.).
+1.  Clone/download this [repository](https://github.com/towmass/feed-reader) and run your favorite browser (Chrome, Firefox etc.).
 
 2.  Open the "index.html" file in the browser.
 
